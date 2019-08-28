@@ -2,11 +2,25 @@
 
 This is My Tutorial Project for Powershell
 
+```sh
+PS > $PSVersionTable["PSVersion"]
+
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+5      0      10586  117
+```
+
+```sh
+PS > Get-ExecutionPolicy
+RemoteSigned
+```
+
 ## 参考
 
 ### ExecutionPolicy について
 
 [[PowerShell] 起動時に ExecutionPolicy を指定して起動](https://gist.github.com/devlights/e6a9ef10668374ab197d3c9f15d9c237)
+
 [PowerShell実行ポリシーのメモ](https://gist.github.com/stknohg/328df73891b8e4f15327ba8a7ba90c47)
 
 ### git 利用時の文字化け について
